@@ -1,0 +1,16 @@
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\bin\Debug\net8.0-windows\SimpleSoundboard2.exe
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\bin\Debug\net8.0-windows\SimpleSoundboard2.deps.json
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\bin\Debug\net8.0-windows\SimpleSoundboard2.runtimeconfig.json
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\bin\Debug\net8.0-windows\SimpleSoundboard2.dll
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\bin\Debug\net8.0-windows\SimpleSoundboard2.pdb
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.Form1.resources
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.csproj.GenerateResource.cache
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.AssemblyInfoInputs.cache
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.AssemblyInfo.cs
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.csproj.CoreCompileInputs.cache
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.dll
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\refint\SimpleSoundboard2.dll
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.pdb
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\SimpleSoundboard2.genruntimeconfig.cache
+C:\Users\ea-da\Documents\GitHub\SimpleSoundboard2\obj\Debug\net8.0-windows\ref\SimpleSoundboard2.dll
