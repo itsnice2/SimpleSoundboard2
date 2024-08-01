@@ -64,6 +64,7 @@
             listbox_soundlist.ScrollAlwaysVisible = true;
             listbox_soundlist.Size = new Size(360, 214);
             listbox_soundlist.TabIndex = 0;
+            listbox_soundlist.Click += listbox_soundlist_Click;
             listbox_soundlist.DoubleClick += listbox_soundlist_DoubleClick;
             listbox_soundlist.KeyDown += listbox_soundlist_KeyDown;
             // 
@@ -105,6 +106,7 @@
             btn_help.TabIndex = 4;
             btn_help.Text = "&Hilfe";
             btn_help.UseVisualStyleBackColor = true;
+            btn_help.Click += btn_help_Click;
             // 
             // menuStrip1
             // 

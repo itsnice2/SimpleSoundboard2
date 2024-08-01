@@ -19,9 +19,9 @@ namespace SimpleSoundboard2
             InitializeComponent();
         }
 
-// ####################################################################################################################
-// ########### M E T H O D S ##########################################################################################
-// ####################################################################################################################
+        // ####################################################################################################################
+        // ########### M E T H O D S ##########################################################################################
+        // ####################################################################################################################
 
         public void readConfigFile()
         {
@@ -57,7 +57,6 @@ namespace SimpleSoundboard2
             }
 
             sr.Close();
-            //Console.ReadLine();
 
         }
 
@@ -132,25 +131,21 @@ namespace SimpleSoundboard2
         {
             try
             {
-                //Pass the filepath and filename to the StreamWriter Constructor
                 StreamWriter sw = new StreamWriter("C:\\Users\\ea-da\\Documents\\GitHub\\SimpleSoundboard2\\config.cfg");
-                //Write a line of text
                 sw.WriteLine(textBox_soundfolder.Text);
-                //Write a second line of text
                 sw.WriteLine(comboBox_fontsize.SelectedItem.ToString());
-                //Close the file
                 sw.Close();
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Fehler. Daten konnten nicht gespeichert werden!");
             }
 
             setConfig();
         }
-// ####################################################################################################################
-// ########### E L E M E N T S ########################################################################################
-// ####################################################################################################################
+        // ####################################################################################################################
+        // ########### E L E M E N T S ########################################################################################
+        // ####################################################################################################################
 
         private void btn_quit_Click(object sender, EventArgs e)
         {
@@ -183,6 +178,56 @@ namespace SimpleSoundboard2
                     listbox_soundlist.Font = new Font("Segoe UI", listsize);
                 }
 
+            }
+
+            if (e.KeyCode == Keys.D1)
+            {
+                playSound(1);
+            }
+
+            if (e.KeyCode == Keys.D2)
+            {
+                playSound(2);
+            }
+
+            if (e.KeyCode == Keys.D3)
+            {
+                playSound(3);
+            }
+
+            if (e.KeyCode == Keys.D4)
+            {
+                playSound(4);
+            }
+
+            if (e.KeyCode == Keys.D5)
+            {
+                playSound(5);
+            }
+
+            if (e.KeyCode == Keys.D6)
+            {
+                playSound(6);
+            }
+
+            if (e.KeyCode == Keys.D7)
+            {
+                playSound(7);
+            }
+
+            if (e.KeyCode == Keys.D8)
+            {
+                playSound(8);
+            }
+
+            if (e.KeyCode == Keys.D9)
+            {
+                playSound(9);
+            }
+
+            if (e.KeyCode == Keys.D0)
+            {
+                playSound(10);
             }
 
         }
@@ -292,6 +337,39 @@ namespace SimpleSoundboard2
             saveSettings();
             setConfig();
             loadSettings();
+        }
+
+        private void btn_help_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // https://stackoverflow.com/a/18276042
+                // Solutions for different Systems:
+                // https://github.com/dotnet/runtime/issues/17938#issuecomment-235502080
+
+                ProcessStartInfo goToLink = new ProcessStartInfo()
+                {
+                    FileName = "https://github.com/itsnice2/SimpleSoundboard2",
+                    UseShellExecute = true
+                };
+                Process.Start(goToLink);
+            }
+            catch
+            {
+                MessageBox.Show("Browser konnte nicht geöffnet werden. Besuchen Sie \n\n\thttps://github.com/itsnice2/SimpleSoundboard2\n\n für die Hilfe.");
+            }
+        }
+
+        private void listbox_soundlist_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                playSound(listbox_soundlist.SelectedIndex + 1);
+            }
+            catch
+            {
+                MessageBox.Show("Fehler bei der Soundwiedergabe. Ist die Datei im WAV-Format?");
+            }
         }
     }
 }
